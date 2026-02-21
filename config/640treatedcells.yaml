@@ -1,0 +1,10 @@
+path: datasets/640treatedcells # dataset root dir
+train: datasets/640treatedcells/train
+val: datasets/640treatedcells/val
+
+nc : 4
+names:
+  0: RBC
+  1: WBC
+  2: CTC
+  3: nonbloodcell
